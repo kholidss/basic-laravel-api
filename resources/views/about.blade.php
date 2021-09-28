@@ -10,11 +10,12 @@
 </head>
 
 <body>
+    <!-- sama dengan php echo -->
     <h1>Halaman About</h1>
-    <h1><?php echo $name; ?></h1>
-    <p><?php echo $email; ?></p>
+    <h1>{{ $name }}</h1>
+    <p>{{ $email }}</p>
 
-    <img src="img/<?= $image; ?>" alt=" kholids" width="200">
+    <img src="img/{{ $image }}" alt=" kholids" width="200">
 
     <script src="js/script.js"></script>
 </body>

@@ -18,14 +18,14 @@ Route::get('/', function () {
 });
 
 
-Route::get('/about', function () {
-    return view('about', [
-        "name" => "Kholid Saifulloh",
-        "email" => "muhammadkholid@refactory.id",
-        "image" => "me.jpeg"
-    ]);
-});
+// Route::get('/about', function () {
+//     return view('about', [
+//         "name" => "Kholid Saifulloh",
+//         "email" => "muhammadkholid@refactory.id",
+//         "image" => "me.jpeg"
+//     ]);
+// });
 
-Route::get('/blog', function () {
-    return view('posts');
-});
+// Route::get('/blog', function () {
+//     return view('posts');
+// });
